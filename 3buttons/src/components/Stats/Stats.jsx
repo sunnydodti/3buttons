@@ -41,8 +41,9 @@ function Stats(props) {
 }
 
 function getPercent(total, value) {
+  if (value === 0) return 0;
   const percent = ((value / total) * 100) / 10;
-  return percent * 10;
+  return percent ? (percent * 10).toFixed(2) : 0;
 }
 
 function getStyle(percentage) {
