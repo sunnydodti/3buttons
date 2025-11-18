@@ -1,0 +1,59 @@
+.color-bar {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.color-bar-red {
+  background: red;
+}
+
+.color-bar-green {
+  background: green;
+}
+
+.color-bar-blue {
+  background: blue;
+}
+
+.color-bar-0 {
+  height: 0%;
+}
+
+.color-bar-10 {
+  height: 10%;
+}
+
+.color-bar-20 {
+  height: 20%;
+}
+
+.color-bar-30 {
+  height: 30%;
+}
+
+.color-bar-40 {
+  height: 40%;
+}
+
+.color-bar-50 {
+  height: 50%;
+}
+
+.color-bar-60 {
+  height: 60%;
+}
+
+.color-bar-70 {
+  height: 70%;
+}
+
+.color-bar-80 {
+  height: 80%;
+}
+
+.color-bar-90 {
+  height: 90%;
+}
