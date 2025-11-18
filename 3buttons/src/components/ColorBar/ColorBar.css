@@ -6,54 +6,42 @@
   justify-content: end;
 }
 
-.color-bar-red {
-  background: red;
-}
-
-.color-bar-green {
-  background: green;
-}
-
-.color-bar-blue {
-  background: blue;
-}
-
-.color-bar-0 {
+.color-bar-vertical-0 {
   height: 0%;
 }
 
-.color-bar-10 {
+.color-bar-vertical-10 {
   height: 10%;
 }
 
-.color-bar-20 {
+.color-bar-vertical-20 {
   height: 20%;
 }
 
-.color-bar-30 {
+.color-bar-vertical-30 {
   height: 30%;
 }
 
-.color-bar-40 {
+.color-bar-vertical-40 {
   height: 40%;
 }
 
-.color-bar-50 {
+.color-bar-vertical-50 {
   height: 50%;
 }
 
-.color-bar-60 {
+.color-bar-vertical-60 {
   height: 60%;
 }
 
-.color-bar-70 {
+.color-bar-vertical-70 {
   height: 70%;
 }
 
-.color-bar-80 {
+.color-bar-vertical-80 {
   height: 80%;
 }
 
-.color-bar-90 {
+.color-bar-vertical-90 {
   height: 90%;
 }

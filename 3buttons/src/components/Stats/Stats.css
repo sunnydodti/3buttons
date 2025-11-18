@@ -1,0 +1,6 @@
+.stats-bar {
+  height: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}

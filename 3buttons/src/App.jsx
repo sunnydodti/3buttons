@@ -46,6 +46,7 @@ function increment(previous) {
 }
 
 function getStat(count) {
-  return Math.floor(count / 10);
+  // return Math.floor(count / 10);
+  return count;
 }
 export default App;

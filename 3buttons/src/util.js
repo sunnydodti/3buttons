@@ -6,10 +6,10 @@ export function getButtonClass(color) {
   return getClassName('button', color)
 }
 
-export function getBarClassColored(color) {
-  return getClassName('color-bar', color)
+export function getColorClass(color) {
+  return getClassName('color', color)
 }
 
-export function getBarClassSize(emptySpace) {
-  return getClassName('color-bar', emptySpace)
+export function getVerticalBarClassSize(emptySpace) {
+  return getClassName('color-bar-vertical', emptySpace)
 }

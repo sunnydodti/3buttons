@@ -1,4 +1,4 @@
-import { getBarClassColored, getBarClassSize } from "../../util";
+import { getColorClass, getVerticalBarClassSize } from "../../util";
 import "./ColorBar.css";
 const ColorBar = (props) => {
   const { id, count } = props;
@@ -6,12 +6,10 @@ const ColorBar = (props) => {
   const progress = (count % 10) * 10;
   const emptySpace = 100 - progress;
 
-  console.log(id, progress, emptySpace);
+  const classNameColorBar = getColorClass(id);
 
-  const classNameColorBar = getBarClassColored(id);
-
-  const classNameEmptyBarSize = getBarClassSize(emptySpace);
-  const classNameFilledBarSize = getBarClassSize(progress);
+  const classNameEmptyBarSize = getVerticalBarClassSize(emptySpace);
+  const classNameFilledBarSize = getVerticalBarClassSize(progress);
 
   return (
     <div className="color-bar">
