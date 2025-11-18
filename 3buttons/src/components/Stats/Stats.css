@@ -1,6 +1,14 @@
+.stats-metrics {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.stats-metrics span {
+  padding: 4px;
+}
+
 .stats-bar {
   height: 10px;
   display: flex;
   flex-direction: row;
-  width: 100%;
 }

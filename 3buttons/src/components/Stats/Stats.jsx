@@ -9,17 +9,18 @@ function Stats(props) {
   const greenPercent = getPercent(total, countGreen);
   const bluePercent = getPercent(total, countBlue);
 
-  console.log("redPercent", redPercent);
-  console.log("greenPercent", greenPercent);
-  console.log("bluePercent", bluePercent);
-  console.log("total", total);
-
   return (
     <div>
       <div className="stats-metrics">
-        <span>Red: {countRed} | </span>
-        <span>Green: {countGreen} | </span>
-        <span>Blue: {countBlue} | </span>
+        <span>Red: {countRed}</span>
+        <span>Green: {countGreen}</span>
+        <span>Blue: {countBlue}</span>
+      </div>
+
+      <div className="stats-metrics">
+        <span>({redPercent}%)</span>
+        <span>({greenPercent}%)</span>
+        <span>({bluePercent}%)</span>
       </div>
 
       <div className="stats-bar">

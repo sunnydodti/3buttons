@@ -10,7 +10,7 @@ function App() {
   const [countBlue, setcountBlue] = useState(0);
 
   return (
-    <div>
+    <div className="main-container">
       <Stats
         countRed={getStat(countRed)}
         countGreen={getStat(countGreen)}
@@ -46,7 +46,7 @@ function increment(previous) {
 }
 
 function getStat(count) {
-  // return Math.floor(count / 10);
-  return count;
+  return Math.floor(count / 10);
+  // return count;
 }
 export default App;
